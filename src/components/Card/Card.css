@@ -1,0 +1,86 @@
+.cardWrapper {
+    background-color: white;
+    border: 1px solid rgb(209, 207, 207,0.3);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.card {
+    height: 400px;
+     width: 250px;
+    background-color: white;
+}
+.cardHeader {
+    border-bottom:1px solid rgb(209, 207, 207,0.3); 
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardInsideHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondP {
+    opacity: 30%;
+    height: 20px;
+    margin-left: 3px;
+}
+.cardDescr{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cardDescr p {
+    opacity: 50%;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cardList ul {
+    list-style-position: inside;
+    height: 160px;
+}
+.cardList ul li {
+    font-size: 13px;
+    opacity: 70%;
+    margin: 6px 0 6px 0;
+    padding-left: 15px;
+}
+.cardPrice{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cardPrice p {
+    font-size: 18px;
+    opacity: 70%;
+}
+.cardBtnDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.cardBtn {
+    border-radius:28px;
+    padding: 7px 22px;
+    background-color: white;
+    border:1px solid rgb(209, 207, 207,0.3); 
+    font-weight: bold;
+}
+.cardBtn:hover {
+    cursor: pointer;
+}
+.cardBtnTwo {
+    border-radius:28px;
+    padding: 10px 30px;
+    background-color:rgba(36,116,150,255);
+    border:1px solid rgb(209, 207, 207,0.3); 
+    font-weight: bold;
+    color: white;
+}
+.cardBtnTwo:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+
+
+.headerDiv {
+    padding-top: 20px;
+    font-family: sans-serif;
+    
+}
+.elementsDiv {
+    padding-left: 25px;
+}
+.borderDiv {
+    border-bottom: 1px solid rgb(209, 207, 207,0.3);
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.headerDiv h1 {
+    margin-bottom: 20px;
+}
+.headerDiv a {
+    font-weight: bold;
+    color: rgb(0, 0, 0,0.4);
+    text-decoration: none;
+    margin: 0 30px 0 10px;
+}
+.headerDiv a:hover,
+.headerDiv a:active,
+.headerDiv a.active {
+    color:rgba(52,81,153,255);
+    border-bottom: 3px solid rgba(26,59,142,255);
+
+}
